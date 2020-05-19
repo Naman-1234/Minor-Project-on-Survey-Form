@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Practice </title>
+        <link rel="stylesheet" href="Practice1.css">
+        
+    </head>
+    <body>
+    <header>
+        <h1>Survey Form</h1>
+          </header>
+        <section class="survey">
+    <form target="_blank" method="post" autocomplete="yes" action="Thanks.html" >
+         <fieldset>            <legend>Survey</legend>
+        <p>Let us Know More About You.......</p>
+        <div>
+        <label class="l">*Name:</label>
+        <input type="text" name="username" placeholder="Enter your Name"><br><br>
+            </div>
+        <label class="l">*Email:</label>
+        <input type="email" name="useremail" placeholder="Enter your Email"><br><br>
+        <label class="l">*Age:</label>
+        <input type="date" name="user-age" placeholder="Enter Your Age"><br><br>
+        <label class="l">What are you pursuing right now</label>
+        <select id="job">
+        <option value="student">Student</option>
+        <option value="Part-time">Part-time job</option>
+            <option value="Intern">Intern</option>
+            <option value="Employed">Employed</option>
+            <option value="none">None of the above</option>
+        </select><br><br>
+        <label for="check" class="l">How was this page,was it understandable and if not please let us know:     </label>
+        <br>
+        <label>Yes</label>
+        <input type="radio"  name="Check" id="check" value="Yes"><br>
+        <label>No</label>
+         <input type="radio" name="Check" id="check" value="No"><br>
+        <label>Partially</label>
+         <input type="radio" name="Check" id="check" value="Partially"><br><br><br>
+        <label class="l">So are you liking Web Development </label><br>
+        <select id="web"><br>
+        <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br><br>
+            <label>So what did you like the most in Web Development:</label><br>
+        <label>Front End</label>
+        <input type="checkbox"><br>
+        <label>Back End</label>
+        <input type="checkbox"><br><br><br>
+        <input type="submit" value="Submit">
+               </fieldset>
+         </form>
+                 
+            </section>
+      
+    </body>
+</html>
